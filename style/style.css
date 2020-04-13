@@ -34,7 +34,7 @@ body {
     transform: translateY(-50%);
     border:none;
     background-color: #121423;
-    background-image: url(/img/icons/search.svg);
+    background-image: url(../img/icons/search.svg);
     background-position: 1% 50%;
     background-repeat: no-repeat;
     width: 21px;
@@ -209,7 +209,7 @@ body {
 .password {
     width: 213px;
     margin-right: 9px;
-    background-image: url(/img/icons/eye.svg);
+    background-image: url(../img/icons/eye.svg);
     background-repeat: no-repeat;
     background-position: 183px;    
 }
@@ -255,7 +255,7 @@ body {
     color: #A2A5C1;
 }
 .promocode {
-    background-image: url(/img/icons/question.svg);
+    background-image: url(../img/icons/question.svg);
     background-repeat: no-repeat;
     background-position: 300px;
 }
@@ -263,7 +263,7 @@ body {
 .promo-deposit {
     height: 492px;
     width: 1244px;
-    background-image:  url(/img/content/promo.jpg);
+    background-image:  url(../img/content/promo.jpg);
     background-repeat: no-repeat;
     background-position: right;
     box-shadow: linear-gradient(270deg, #091024 0%, rgba(25, 32, 50, 0) 100%);
@@ -415,7 +415,7 @@ body {
     border-radius: 10px;
     outline: none;
     padding: 6px 0px 3px 10px;
-    background-image: url(/img/icons/search.svg);
+    background-image: url(../img/icons/search.svg);
     background-repeat: no-repeat;
     background-position: 355px;
 }
@@ -450,7 +450,7 @@ body {
 .filter-input:last-child {
     border: 1px solid #D73649;
     color: #fff;
-    background-image: url(/img/icons/more.svg);
+    background-image: url(../img/icons/more.svg);
     background-repeat: no-repeat;
     background-position:60px;
     padding-right: 37px;
