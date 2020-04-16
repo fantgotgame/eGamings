@@ -511,9 +511,7 @@ a {
     margin-left: 8px;
     position: relative;
 }
-.button-block {
-    border: 1px solid #000;
-}
+
 .button-block-image {
     border-radius: 17px;
     border: 5px solid #8BEB01;
@@ -550,4 +548,45 @@ a {
 
     color: #000000;
 }
+.button-block-image2 {
+    border-radius: 17px;
+    border: 5px solid #50FFE0;
+    box-shadow: 0px 0px 14px #50FFDF;
+}
+.game-thor {
+    margin-right: 8px;
+    position: relative;
+}
+.button-block-image3 {
+   border: 5px solid #4F00F7;
+   box-shadow: 0px 0px 14px #4F00F7;
+   border-radius: 17px;
+}
+.jokerpro,
+.PrettyKitty,
+.kawaii_kitty,
+.JungleJim {
+    position: relative;
+}
+.mini-tag {
+    top:20px;
+    right: 0.5px;
+}
+.mini-title {
+    top:22px;
+    right: 6.5px;
+}
 /* ?.section-newGames */
+
+/* sponsors */
+.container-payment {
+    margin: auto;
+    max-width: 1045px;
+}
+.all-payment {
+    margin-top: 101px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* /.sponsors */
