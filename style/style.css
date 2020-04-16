@@ -578,15 +578,55 @@ a {
 }
 /* ?.section-newGames */
 
-/* sponsors */
+/* payment */
 .container-payment {
     margin: auto;
     max-width: 1045px;
 }
 .all-payment {
     margin-top: 101px;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+footer {
+    background: #121423;
+}
+/* /.payment */
+
+/* sponsors */
+.sponsors {
+    padding-top: 35px;
+}
+.top-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.bot-block {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #172146;
+}
+svg:hover {
+    fill: #fff;
+}
 /* /.sponsors */
+/* footer */
+.footer-logo {
+    margin-top: 30px;
+}
+.footer-name-title {
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+.
+/* /.footer */
