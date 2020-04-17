@@ -136,7 +136,7 @@ a {
     height: 350px;
     width: 320px;
     /* border: 0.1px solid #fff;  */
-    margin: 57px 86px 0 285px;
+    margin: auto;
 }
 
 .signUp-title {
@@ -710,3 +710,56 @@ svg > *:hover {
     opacity: 0.8;
 }
 /* /.footer */
+
+/* adaptive */
+@media (max-width: 1700px) {
+    .container {
+       max-width: 1000px;
+    }
+    .header-name-title {
+    }
+    body {
+        background: linear-gradient(283.07deg, #121726 57.75%, #222C42 90.78%);
+    }
+    .filter {
+    height: 130px;
+    }
+    .filter-inputs {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-around;
+        height: 130px;
+    }
+    .filter-input-pos {
+        padding-top: 0;
+    }
+    .filter-inputs span {
+        padding-right: 50px;
+        
+    }
+    .newsGames-container {
+        flex-wrap: wrap;
+    }
+    .game-zombi,
+    .game-thor {
+        margin: auto;
+    }
+    .menu-container {
+        justify-content: space-between;
+        align-content: space-around;
+        height: 130px;
+    }
+    .list-games {
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+        align-content: space-evenly;
+    }
+    .menu-search {
+        padding-left: 10px;
+    }
+    .newGames {
+        padding-left:35px;
+    }
+}
+/* /.adaptive */
