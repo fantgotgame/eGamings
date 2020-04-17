@@ -607,14 +607,23 @@ footer {
 .bot-block {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-bottom: 35px;
     border-bottom: 2px solid #172146;
 }
-svg:hover {
+svg g>*:hover {
+    fill: #fff;
+}
+svg > *:hover {
     fill: #fff;
 }
 /* /.sponsors */
 /* footer */
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
 .footer-logo {
     margin-top: 30px;
 }
@@ -628,5 +637,76 @@ svg:hover {
     color: #FFFFFF;
     margin-left: 3px;
 }
-.
+.other-logo {
+    display: flex;
+    margin-top:37px;
+    align-items: center;
+}
+.stamp-old {
+    margin-right: 17px;
+}
+.footer-menu {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer-list {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #32448C;
+}
+.footer-list  li {
+    padding-top: 9px;
+}
+.footer-list li:first-child {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.footer-notice {
+    margin-top: 43px;
+    margin-right: 24px;
+    width: 387px;
+    height: 213px;
+}
+.notice-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.notice {
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.dev {
+    height: 111px;
+    width: 895px;
+}
+.dev-notice {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
 /* /.footer */
