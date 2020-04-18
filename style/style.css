@@ -761,5 +761,109 @@ svg > *:hover {
     .newGames {
         padding-left:35px;
     }
+    .block-notice {
+        margin-left: 40px;
+    }
+    .dev {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1300px) {
+    .comtainer {
+        max-width: 700px;
+    }
+    .grid-newGames {
+        grid-template-columns: 252px 250px;
+        grid-gap: 5px;
+        margin: auto;
+    }
+    .game-zombi,
+    .game-thor {
+       padding: 0;
+       margin: 0;
+       margin: auto;
+    }
+    .header-container {
+        flex-wrap: wrap;
+    }
+    .all-payment {
+        flex-wrap: wrap;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+    .promo {
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .footer-menu {
+        flex-wrap: wrap;
+    }
+    .promo-deposit {
+        margin-top: 70px;
+    }
+    .dev {
+        height: 111px;
+    }
+    .menu-container {
+        height: 280px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .menu-search {
+        padding-left: 0px;
+        padding-bottom: 100px;
+        margin: auto;
+    }
+    .filter {
+        height: 210px;
+    }
+    .filter-inputs {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-evenly;
+        height: 210px;
+    }
+}
+@media (max-width: 1300px) {
+    .container {
+        max-width: 700px;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        max-width: 400px;
+    }
+    .grid-newGames {
+            grid-template-columns: 252px;
+    }
+    .game-zombi, 
+    .game-thor {
+    width: 400px;
+    height: 312px;
+    overflow: hidden;
+    background-image: url(../img/games/zombie_horde.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 17px;
+    border: 5px solid #8BEB01;
+    box-shadow: 0px 0px 14px #8BEB01;
+    }
+    .button-block-image {
+        width: auto;
+        height: 200%;
+        display: none;
+    }
+    .payment {
+        height: 195px;
+    }
+    .all-payment {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        justify-content: space-around;
+        height: 192px;
+        margin: 0;
+    }
 }
 /* /.adaptive */
