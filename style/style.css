@@ -829,6 +829,9 @@ svg > *:hover {
     .container {
         max-width: 700px;
     }
+    .header {
+        padding-bottom: 20px;
+    }
 }
 @media (max-width: 800px) {
     .container {
@@ -849,6 +852,12 @@ svg > *:hover {
     border: 5px solid #8BEB01;
     box-shadow: 0px 0px 14px #8BEB01;
     }
+    .game-zombi {
+        margin-top:5px;
+    }
+    .game-thor {
+        margin-bottom:5px;
+    }
     .button-block-image {
         width: auto;
         height: 200%;
@@ -865,5 +874,119 @@ svg > *:hover {
         height: 192px;
         margin: 0;
     }
+    .game-tag {
+        right: 0;
+    }
+    .button-play {
+        top: 140px;
+        right: 117px;
+    }
+    .header-container {
+        display: block;
+    }
+    .header {
+        padding-bottom: 20px;
+    }
+    .header-name-title {
+        font-size: 14px;
+    }
+    .header-nav-menu li {
+        font-size: 13px;
+    }
+    .header-name {
+        margin: auto;
+        width: 150px;
+    }
+    .header-buttons {
+        padding-top: 30px;
+        margin: auto;
+        width: 250px;
+    }
 }
+@media (max-width: 500px) {
+    .input-search {
+        width: 290px;
+        background-position: 260px;
+    }
+    .promo-deposit {
+        display: none;
+    }
+    .container {
+        max-width: 350px;
+    }
+    .signUp {
+        height: 420px;
+    }
+    .footer-menu {
+        margin-right: 35px;
+    }
+    .footer-logo {
+        margin: auto;
+        padding-top: 25px;
+    }
+    .all-payment {
+        margin-top: 35px;
+    }
+    .header {
+        padding-bottom: 20px;
+    }
+    .header-name-title {
+        font-size: 14px;
+    }
+    .header-nav-menu li {
+        font-size: 13px;
+    }
+    .header-name {
+        margin: auto;
+    }
+    .header-buttons {
+        padding-top: 30px;
+        margin: auto;
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        max-width: 300px;
+    }
+    .button-play {
+        top: 96px;
+        right: 89px;
+    }
+    .game-zombi {
+        width: 300px;
+        height: 235px;
+    }
+    .game-tag {
+        right: 1px;
+    }
+    .filter-inputs {
+        height: 165px;
+    }
+    .button-play {
+        width: 117px;
+    }
+    .tag-title {
+        font-size: 12px;
+    }
+    .button-play-title {
+        font-size: 15px;
+    }
+    .header {
+        padding-bottom: 20px;
+    }
+    .header-name-title {
+        font-size: 14px;
+    }
+    .header-nav-menu li {
+        font-size: 13px;
+    }
+    .header-name {
+        margin: auto;
+    }
+    .header-buttons {
+        padding-top: 30px;
+        margin: auto;
+    }
+}
+
 /* /.adaptive */
