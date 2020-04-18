@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
@@ -8,8 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 a {
-    text-decoration:none;
-
+    text-decoration: none;
 }
 .container {
     margin: auto;
@@ -65,7 +65,10 @@ a {
     line-height: 21px;
     color: #FFFFFF;
 }
-.header-nav-menu li:not(:last-child) {
+.header-nav-menu li:hover {
+    color: #aaa;
+}
+.header-nav-menu a:not(:last-child) {
     margin-right: 25px;
 }
 .header-name {
@@ -97,6 +100,9 @@ a {
     font-size: 16px;
     line-height: 105.66%;
 }
+.button-main:hover {
+    background: rgb(84, 150, 85);
+}
 .header-buttons {
     display: flex;
     align-items: center;
@@ -113,6 +119,9 @@ a {
     border-radius: 100px;
     background-color: #121423;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.button-login:hover {
+    background: #252d69;
 }
 .button-login-title {
     font-style: normal;
@@ -170,7 +179,11 @@ a {
     margin-bottom: 5px;
 }
 .social-networks img:not(:last-child) {
-    padding-right: 15px;
+    margin-right: 15px;
+}
+.social-hover:hover {
+    border: 4px solid #fff;
+    border-radius: 50%
 }
 .signUp-logIn {
     margin-top: 14px;
@@ -247,8 +260,11 @@ a {
     height: 30px;
 }
 .question {
-    margin-top: 14px;
-    padding: 0px 112px 0 113px;
+        margin-top: 24px;
+        width: 158px;
+        margin: auto;
+        text-align: center;
+        padding-top: 15px;
 }
 .question-text {
     font-style: normal;
@@ -257,6 +273,9 @@ a {
     line-height: 14px;
     text-decoration-line: underline;
     color: #A2A5C1;
+}
+.question-text:hover {
+    font-size: 15px;
 }
 .promocode {
     background-image: url(../img/icons/question.svg);
@@ -284,6 +303,12 @@ a {
 }
 .buttons-arrow {
     margin: 60px 0 0 68px;
+}
+.arrow:hover {
+    border: 5px solid #595959;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;;
 }
 .buttons-arrow:not(:last-child)
 {
@@ -371,8 +396,12 @@ a {
     text-align: center;
     color: #FFFFFF;
 }
-.list-games li:not(:first-child) {
-    padding-left: 40px;
+.list-games li:hover {
+    color: #aaa;
+    font-size: 15px;
+}
+.list-games > a:not(:last-child) {
+    margin-right: 40px;
 }
 .games-block {
     width: 1080px;
@@ -447,6 +476,11 @@ a {
     line-height: 15px;
     color: #8187AD;
 }
+.filter-inputs > span:hover {
+    border: 1px solid #D73649;
+    color: #fff;
+    font-size: 14px;
+}
 .filter-input:first-child {
     border: 1px solid #D73649;
     color: #fff
@@ -486,6 +520,10 @@ a {
 .forafter:after {
     content: " >"
 }
+.forafter:hover {
+    color: rgb(84, 150, 85);
+    font-size:19px;
+}
 .section-title {
     margin-top: 50px;
     margin-bottom: 33px;
@@ -507,11 +545,18 @@ a {
     grid-template-columns: 252px 250px 250px 250px;
     grid-gap: 5px;
 }
+.monsters:hover {
+    box-shadow: 0px -12px 14px #8BEB01;
+    border-radius: 15px;
+}
 .game-zombi {
     margin-left: 8px;
     position: relative;
 }
-
+.game-zombi:hover {
+    box-shadow: 0px 0px 83px #8BEB01;
+    border-radius: 20px;
+}
 .button-block-image {
     border-radius: 17px;
     border: 5px solid #8BEB01;
@@ -548,25 +593,43 @@ a {
 
     color: #000000;
 }
-.button-block-image2 {
+.game-thor {
     border-radius: 17px;
     border: 5px solid #50FFE0;
     box-shadow: 0px 0px 14px #50FFDF;
+}
+.game-thor:hover {
+    box-shadow: 0px 0px 83px #50FFDF;
 }
 .game-thor {
     margin-right: 8px;
     position: relative;
 }
-.button-block-image3 {
+.game-elephants {
    border: 5px solid #4F00F7;
    box-shadow: 0px 0px 14px #4F00F7;
    border-radius: 17px;
 }
+.game-elephants:hover {
+    box-shadow: 0px 0px 83px #4F00F7;
+}
+.game-elephants {
+    margin-left: 8px;
+    position: relative;
+}
+
 .jokerpro,
 .PrettyKitty,
 .kawaii_kitty,
 .JungleJim {
     position: relative;
+}
+.jokerpro:hover,
+.PrettyKitty:hover,
+.kawaii_kitty:hover,
+.JungleJim:hover {
+    box-shadow: 0px 0px 83px #8BEB01;
+    border-radius: 20px;
 }
 .mini-tag {
     top:20px;
@@ -589,6 +652,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.all-payment img:not(:nth-child(4)):hover {
+    width: 100px;
 }
 footer {
     background: #121423;
@@ -651,7 +717,7 @@ svg > *:hover {
     justify-content: space-between;
     margin-top: 10px;
 }
-.footer-list {
+.footer-list a {
     list-style-type: none;
     font-style: normal;
     font-weight: normal;
@@ -659,15 +725,21 @@ svg > *:hover {
     line-height: 19px;
     color: #32448C;
 }
+.footer-list a:hover {
+    color: rgb(131, 141, 182);
+}
 .footer-list  li {
     padding-top: 9px;
 }
-.footer-list li:first-child {
+.footer-list a:first-child {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 42px;
     color: #FFFFFF;
+}
+.footer-list a:first-child:hover {
+    color: #aaa;
 }
 .footer-notice {
     margin-top: 43px;
@@ -741,7 +813,8 @@ svg > *:hover {
         flex-wrap: wrap;
     }
     .game-zombi,
-    .game-thor {
+    .game-thor,
+    .game-elephants {
         margin: auto;
     }
     .menu-container {
@@ -778,7 +851,8 @@ svg > *:hover {
         margin: auto;
     }
     .game-zombi,
-    .game-thor {
+    .game-thor,
+    .game-elephants {
        padding: 0;
        margin: 0;
        margin: auto;
@@ -840,19 +914,41 @@ svg > *:hover {
     .grid-newGames {
             grid-template-columns: 252px;
     }
-    .game-zombi, 
-    .game-thor {
-    width: 400px;
-    height: 312px;
-    overflow: hidden;
-    background-image: url(../img/games/zombie_horde.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 17px;
-    border: 5px solid #8BEB01;
-    box-shadow: 0px 0px 14px #8BEB01;
-    }
     .game-zombi {
+        width: 400px;
+        height: 312px;
+        overflow: hidden;
+        background-image: url(../img/games/zombie_horde.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 17px;
+        border: 5px solid #8BEB01;
+        box-shadow: 0px 0px 14px #8BEB01;
+    }
+    .game-thor {
+        width: 400px;
+        height: 312px;
+        overflow: hidden;
+        background-image: url(../img/games/zombie_horde.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 17px;
+       
+    }
+    .game-elephants {
+        width: 400px;
+        height: 312px;
+        overflow: hidden;
+        background-image: url(../img/games/zombie_horde.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 17px;
+        border: 5px solid #4F00F7;
+        box-shadow: 0px 0px 14px #4F00F7;
+        
+    }
+    .game-zombi,
+    .game-elephants {
         margin-top:5px;
     }
     .game-thor {
@@ -943,6 +1039,11 @@ svg > *:hover {
         padding-top: 30px;
         margin: auto;
     }
+     .game-zombi
+    .game-elephants {
+        width: 300px;
+        height: 275px;
+    }
 }
 @media (max-width: 400px) {
     .container {
@@ -952,7 +1053,9 @@ svg > *:hover {
         top: 96px;
         right: 89px;
     }
-    .game-zombi {
+    .game-zombi,
+    .game-elephants,
+    .game-thor {
         width: 300px;
         height: 235px;
     }
